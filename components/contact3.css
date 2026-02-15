@@ -1,0 +1,241 @@
+.contact3-thq-contact20-elm {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact3-thq-max-width-elm {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact3-thq-section-title-elm {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contact3-thq-content-elm1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact3-thq-text-elm3 {
+  text-align: center;
+}
+ 
+.contact3-thq-row-elm {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.contact3-thq-content-elm2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact3-thq-contact-info-elm1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact3-thq-content-elm3 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+ 
+.contact3-thq-text-elm4 {
+  align-self: stretch;
+  text-align: center;
+}
+ 
+.contact3-thq-text-elm5 {
+  text-align: center;
+}
+ 
+.contact3-thq-email-elm {
+  text-align: center;
+}
+ 
+.contact3-thq-content-elm4 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact3-thq-contact-info-elm2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact3-thq-content-elm5 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+ 
+.contact3-thq-text-elm6 {
+  align-self: stretch;
+  text-align: center;
+}
+ 
+.contact3-thq-text-elm7 {
+  text-align: center;
+}
+ 
+.contact3-thq-phone-elm {
+  text-align: center;
+}
+ 
+.contact3-thq-content-elm6 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact3-thq-contact-info-elm3 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact3-thq-content-elm7 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+ 
+.contact3-thq-text-elm8 {
+  align-self: stretch;
+  text-align: center;
+}
+ 
+.contact3-thq-text-elm9 {
+  text-align: center;
+}
+ 
+.contact3-thq-address-elm {
+  text-align: center;
+}
+ 
+.contact3-fragment1 {
+  display: contents;
+}
+ 
+.contact3-text1 {
+  display: inline-block;
+}
+ 
+.contact3-fragment2 {
+  display: contents;
+}
+ 
+.contact3-text2 {
+  display: inline-block;
+}
+ 
+.contact3-fragment3 {
+  display: contents;
+}
+ 
+.contact3-text3 {
+  display: inline-block;
+}
+ 
+.contact3-fragment4 {
+  display: contents;
+}
+ 
+.contact3-text4 {
+  display: inline-block;
+}
+ 
+.contact3-fragment5 {
+  display: contents;
+}
+ 
+.contact3-text5 {
+  display: inline-block;
+}
+ 
+.contact3-fragment6 {
+  display: contents;
+}
+ 
+.contact3-text6 {
+  display: inline-block;
+}
+ 
+.contact3-fragment7 {
+  display: contents;
+}
+ 
+.contact3-text7 {
+  display: inline-block;
+}
+ 
+.contact3-fragment8 {
+  display: contents;
+}
+ 
+.contact3-text8 {
+  display: inline-block;
+}
+ 
+.contact3-fragment9 {
+  display: contents;
+}
+ 
+.contact3-text9 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .contact3-thq-row-elm {
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .contact3-thq-row-elm {
+    align-items: stretch;
+  }
+}
