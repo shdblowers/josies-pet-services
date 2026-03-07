@@ -2,7 +2,7 @@ import "./TermsOfService.css";
 
 export default function TermsOfService() {
   return (
-    <div className="content-list22-container thq-section-padding">
+    <div id="terms-of-service" className="content-list22-container thq-section-padding">
       <div className="content-list22-thq-max-width-elm thq-section-max-width thq-flex-column">
         <div className="content-list22-thq-content-elm1 thq-flex-column">
           <h2 className="content-list22-thq-heading1-elm thq-heading-2">
