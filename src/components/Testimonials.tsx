@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./Testimonials.css";
 
 const StarIcon = () => (
@@ -18,18 +19,34 @@ interface TestimonialProps {
   date: string;
 }
 
-const Testimonial = ({ text, name, date }: TestimonialProps) => (
-  <div className="testimonial14-thq-content-elm thq-flex-column">
-    <Stars />
-    <p className="thq-body-large">{text}</p>
-    <div className="testimonial14-thq-avatar-elm">
-      <div className="testimonial14-thq-avatar-content-elm">
-        <span className="thq-body-small testimonial14-name">{name}</span>
-        <span className="thq-body-small">{date}</span>
+const TRUNCATE_LENGTH = 200;
+
+const Testimonial = ({ text, name, date }: TestimonialProps) => {
+  const [expanded, setExpanded] = useState(false);
+  const isLong = text.length > TRUNCATE_LENGTH;
+  const displayText = isLong && !expanded ? text.slice(0, TRUNCATE_LENGTH).trimEnd() + "…" : text;
+
+  return (
+    <div className="testimonial14-thq-content-elm thq-flex-column">
+      <Stars />
+      <p className="thq-body-large">{displayText}</p>
+      {isLong && (
+        <button
+          className="testimonial14-expand-btn"
+          onClick={() => setExpanded((prev) => !prev)}
+        >
+          {expanded ? "Show less" : "Read more"}
+        </button>
+      )}
+      <div className="testimonial14-thq-avatar-elm">
+        <div className="testimonial14-thq-avatar-content-elm">
+          <span className="thq-body-small testimonial14-name">{name}</span>
+          <span className="thq-body-small">{date}</span>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 const testimonials: TestimonialProps[] = [
   {
