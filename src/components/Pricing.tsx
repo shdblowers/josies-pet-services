@@ -36,12 +36,11 @@ export default function Pricing() {
         </div>
 
         <div className="pricing4-thq-content-elm2">
-          {/* Plan 1 */}
           <div className="pricing4-thq-column-elm1 thq-card">
             <div className="pricing4-thq-content-elm3">
               <div className="pricing4-thq-price-elm1">
                 <h3 className="pricing4-thq-text-elm13 thq-heading-3">
-                  1 visit per day
+                  1 or 2 visits per day
                 </h3>
                 <p className="pricing4-thq-text-elm14 thq-body-large">
                   £12 per visit
@@ -72,47 +71,6 @@ export default function Pricing() {
             </div>
             <a href="#contact-us">
               <button className="pricing4-thq-button-elm1 thq-button-outline">
-                Contact&nbsp;
-              </button>
-            </a>
-          </div>
-
-          {/* Plan 2 */}
-          <div className="pricing4-thq-column-elm2 thq-card">
-            <div className="pricing4-thq-price-elm2">
-              <div className="pricing4-thq-price-elm3">
-                <h3 className="pricing4-thq-text-elm21 thq-heading-3">
-                  2 visits per day
-                </h3>
-                <p className="pricing4-thq-text-elm22 thq-body-large">
-                  £24 per day
-                </p>
-              </div>
-              <div className="pricing4-thq-list-elm2">
-                <div className="pricing4-thq-list-item-elm15">
-                  <CheckIcon />
-                  <span className="thq-body-small">Minimum of a 30 minute visit</span>
-                </div>
-              </div>
-              <div className="pricing4-thq-list-item-elm16">
-                <CheckIcon />
-                <span className="thq-body-small">Feed and water</span>
-              </div>
-              <div className="pricing4-thq-list-item-elm17">
-                <CheckIcon />
-                <span className="thq-body-small">Litter tray cleaning</span>
-              </div>
-              <div className="pricing4-thq-list-item-elm18">
-                <CheckIcon />
-                <span className="thq-body-small">Play time</span>
-              </div>
-            </div>
-            <div className="pricing4-thq-list-item-elm19">
-              <CheckIcon />
-              <span className="thq-body-small">Water plants, take bins out draw curtains etc</span>
-            </div>
-            <a href="#contact-us">
-              <button className="pricing4-thq-button-elm2 thq-button-filled">
                 Contact
               </button>
             </a>
