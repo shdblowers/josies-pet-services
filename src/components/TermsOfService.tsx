@@ -63,8 +63,8 @@ export default function TermsOfService() {
                   The Owner is required to inform the Service Provider before the
                   booking start date of any pre-existing conditions and/or
                   behavioural issues in order to ensure the animal is effectively
-                  cared for and to ensure the Service Providers own safety. It is
-                  the Owners responsibility to keep the Service Provider up-to
+                  cared for and to ensure the Service Provider's own safety. It is
+                  the Owner's responsibility to keep the Service Provider up-to
                   date and inform the Service Provider of any changes prior to the
                   booking or subsequent bookings.
                 </span>
@@ -77,11 +77,11 @@ export default function TermsOfService() {
                   animal.&nbsp; The Service Provider also reserves the right to
                   charge the Owner the total cost plus an additional fee for any
                   supplies that were required or were purchased due to inadequate
-                  provisions in the Owners home.
+                  provisions in the Owner's home.
                 </span>
                 <br /><br />
                 <span>
-                  SERVICE PROVIDERS RESPONSIBILITIES The Service Provider will
+                  SERVICE PROVIDER'S RESPONSIBILITIES The Service Provider will
                   provide care in the manner directed by the Owner or as close as
                   is reasonably possible. Care information is recorded in an
                   induction form during the first meeting; this is kept separately
@@ -103,20 +103,20 @@ export default function TermsOfService() {
                 <br />
                 <span>
                   Keys and/or access codes can be provided at the initial meeting
-                  or dropped off to the Service Providers address before the
+                  or dropped off to the Service Provider's address before the
                   booking begins, the Service Provider may be able to collect keys
                   but reserves the right to charge an additional fee for this.
                   Keys are kept securely and without any identifying information.
-                  Depending on the Owners preference the service provider will
+                  Depending on the Owner's preference the service provider will
                   return keys at the end of the booking or retain them for
                   subsequent bookings. Any keys left hidden for the Service
-                  Provider to retrieve are left at the Owners own risk and are not
+                  Provider to retrieve are left at the Owner's own risk and are not
                   the responsibility of the Service Provider.
                 </span>
                 <br /><br />
                 <span>
-                  The Owners home will be kept secure, ensuring external doors are
-                  closed and locked after every visit. It is the Owners
+                  The Owner's home will be kept secure, ensuring external doors are
+                  closed and locked after every visit. It is the Owner's
                   responsibility to ensure the Service Provider is able to gain
                   access to the property for every visit; if on arrival for the
                   booking that the Service Provider is unable to gain access to
@@ -150,7 +150,7 @@ export default function TermsOfService() {
           The Service Provider agrees to exercise reasonable care when providing
           services. However, the Service Provider shall not be liable for any
           injury, loss, or damage to the Client's pet unless caused by gross
-          negligence or willful misconduct.
+          negligence or wilful misconduct.
         </span>
         <br /><br />
         <span>
@@ -165,7 +165,7 @@ export default function TermsOfService() {
           Disclaimer: The Service Provider's liability is limited to the
           coverage provided by Pet Plan Sanctuary, and any claims not covered by
           the insurance policy are the sole responsibility of the Owner unless
-          directly caused by gross negligence or willful misconduct by the
+          directly caused by gross negligence or wilful misconduct by the
           Service Provider.
         </span>
         </p>
@@ -176,7 +176,7 @@ export default function TermsOfService() {
         Josie's Pet Services offers a full refund if cancelled more than 24
         hours before the booking, 50% afterwards. Josie's Pet Services reserves
         the right to cancel a booking in the very rare occurrence that&nbsp;the
-        booking cannot be completed it due to unforeseen circumstances; in this
+        booking cannot be completed due to unforeseen circumstances; in this
         case a full refund will be issued and the Owner will be informed as soon
         as possible to allow them to book with an alternative sitter.&nbsp;
         </p>
