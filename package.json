@@ -1,14 +1,27 @@
 {
-  "name": "irresponsible-acceptable-echidna",
-  "version": "1.0.0",
+  "name": "josies-pet-services",
   "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1",
-    "@teleporthq/react-components": "latest",
-    "next": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "dependencies": {
+    "react": "~18.3.1",
+    "react-dom": "~18.3.1"
+  },
+  "engines": {
+    "node": ">= 20.20.0",
+    "npm": ">= 10.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "~18.3.27",
+    "@types/react-dom": "~18.3.7",
+    "@vitejs/plugin-react": "~5.1.2",
+    "typescript": "~5.9.3",
+    "vite": "~7.3.1"
+  }
 }

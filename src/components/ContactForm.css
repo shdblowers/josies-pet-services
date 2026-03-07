@@ -1,0 +1,77 @@
+.contact-form3-thq-contact9-elm {
+  width: 100%;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+
+.contact-form3-thq-max-width-elm {
+  gap: var(--dl-layout-space-fourunits);
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact-form3-image {
+  width: 400px;
+  max-width: 100%;
+  border-radius: var(--dl-layout-radius-imageradius);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.contact-form3-thq-content-elm1 {
+  flex: 1;
+  min-width: 280px;
+  gap: var(--dl-layout-space-twounits);
+}
+
+.contact-form3-thq-section-title-elm {
+  width: 100%;
+}
+
+.contact-form3-thq-content-elm2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-unit);
+}
+
+form.thq-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+}
+
+.contact-form3-thq-input-elm1,
+.contact-form3-thq-input-elm2,
+.contact-form3-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-halfunit);
+}
+
+.contact-form3-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form3-thq-checkbox-elm {
+  display: flex;
+  align-items: center;
+  gap: var(--dl-layout-space-halfunit);
+}
+
+.contact-form3-thq-button-elm {
+  align-self: flex-start;
+}
+
+.contact-form3-success {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .contact-form3-image {
+    width: 100%;
+  }
+  .contact-form3-thq-max-width-elm {
+    flex-direction: column;
+  }
+}
