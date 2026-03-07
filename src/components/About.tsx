@@ -10,7 +10,7 @@ export default function About() {
           pet sitting since 2018, it started as a flexible way to make some
           extra money, now I do it for the joy of looking after animals and for
           the lovely people I have met through this job. I am a big animal
-          lover, I throughly enjoy getting to know unique personalities and I
+          lover, I thoroughly enjoy getting to know unique personalities and I
           find their company therapeutic and hugely rewarding. Pets in my care
           are treated the same way as I treat my own, with love, care and
           attention. I guarantee that your pets will be in friendly and
@@ -18,10 +18,10 @@ export default function About() {
         </p>
         <p className="features9-thq-text-elm3 thq-body-large">
           I have experience looking after cats, dogs, small animals, fish and
-          birds. I am more than happy to fit around your pets schedule to
+          birds. I am more than happy to fit around your pet's schedule to
           provide them with continuity. I can encourage your pet to have a good
           run around or can sit and provide cuddles dependent on their needs. I
-          am understanding of your pets individual character, I can be a calming
+          am understanding of your pet's individual character, I can be a calming
           presence for shy pets and playful for the more confident ones. I am
           happy to send regular updates and photos of your pets during your
           holiday to reassure you that all is well while you enjoy your time
@@ -31,7 +31,7 @@ export default function About() {
           I will always be respectful of your home and belongings. I can switch
           lights on and off, pull curtains, water plants and take bins out while
           visiting your home. I will arrive in an unmarked car or on foot
-          depending on your location and my schedule, so it wont be obvious why
+          depending on your location and my schedule, so it won't be obvious why
           I am visiting or that you are away.&nbsp;
         </p>
         <p className="features9-thq-text-elm5 thq-body-large">

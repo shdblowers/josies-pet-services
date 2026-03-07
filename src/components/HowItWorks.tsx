@@ -15,7 +15,7 @@ const steps = [
   },
   {
     title: "Key hand over",
-    body: "Keys and/or access codes can be provided at the meeting or dropped off to me before the booking begins. I may be able to collect keys but this may incur an extra fee if I am not in the area. While keys are held they are stored securely away from any identifying information and are labeled with the name/s of your pets.\u00a0",
+    body: "Keys and/or access codes can be provided at the meeting or dropped off to me before the booking begins. I may be able to collect keys but this may incur an extra fee if I am not in the area. While keys are held they are stored securely away from any identifying information and are labelled with the name/s of your pets.\u00a0",
   },
   {
     title: "Booking begins",

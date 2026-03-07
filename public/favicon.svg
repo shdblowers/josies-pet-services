@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Palm pad -->
+  <ellipse cx="50" cy="62" rx="22" ry="18" fill="#c95b1e"/>
+  <!-- Top-left toe -->
+  <ellipse cx="22" cy="42" rx="10" ry="12" fill="#c95b1e"/>
+  <!-- Top-centre-left toe -->
+  <ellipse cx="38" cy="32" rx="10" ry="12" fill="#c95b1e"/>
+  <!-- Top-centre-right toe -->
+  <ellipse cx="62" cy="32" rx="10" ry="12" fill="#c95b1e"/>
+  <!-- Top-right toe -->
+  <ellipse cx="78" cy="42" rx="10" ry="12" fill="#c95b1e"/>
+</svg>
