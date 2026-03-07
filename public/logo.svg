@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 90" width="340" height="90">
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!--  CAT – sitting silhouette, detailed paths  -->
+  <!-- ═══════════════════════════════════════════ -->
+  <g fill="#191818" transform="translate(0,5)">
+    <!-- body + haunches -->
+    <path d="M6,78 C6,78 4,64 6,56 C8,48 10,46 14,44
+             C14,44 12,42 12,38 C12,32 16,28 22,28
+             C28,28 32,32 32,38 C32,42 30,44 30,44
+             C34,46 36,50 37,56 C38,62 37,78 37,78 Z"/>
+    <!-- left ear – tall, pointed -->
+    <path d="M13,32 C13,32 10,20 13,14 C15,10 18,10 19,14 C20,18 19,30 19,30 Z"/>
+    <!-- right ear -->
+    <path d="M25,32 C25,32 24,20 25,14 C26,10 29,10 31,14 C33,18 29,30 29,30 Z"/>
+    <!-- tail – long, curling up behind -->
+    <path d="M8,72 C2,68 -2,56 2,46 C5,38 10,36 12,40"
+          fill="none" stroke="#191818" stroke-width="3.5"
+          stroke-linecap="round"/>
+    <!-- nose/muzzle bump -->
+    <path d="M18,40 C16,40 14,42 14,44 C16,46 28,46 30,44 C30,42 28,40 26,40 Z"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!--  DOG – sitting silhouette, detailed paths  -->
+  <!-- ═══════════════════════════════════════════ -->
+  <g fill="#191818" transform="translate(44,0)">
+    <!-- body – barrel chest, haunches -->
+    <path d="M4,82 C4,82 2,64 4,54 C6,44 12,40 18,40
+             L18,40 C16,36 15,30 18,24 C20,18 26,14 33,14
+             C40,14 46,18 48,24 C51,30 50,36 48,40
+             C54,40 60,44 62,54 C64,64 62,82 62,82 Z"/>
+    <!-- left floppy ear -->
+    <path d="M18,22 C14,18 8,20 6,28 C4,36 8,48 14,50
+             C14,50 12,38 16,30 C18,26 20,24 20,24 Z"/>
+    <!-- right floppy ear -->
+    <path d="M48,22 C52,18 58,20 60,28 C62,36 58,48 52,50
+             C52,50 54,38 50,30 C48,26 46,24 46,24 Z"/>
+    <!-- snout / muzzle – broader rectangular shape -->
+    <path d="M24,36 C22,36 20,40 20,44 C20,48 26,52 33,52
+             C40,52 46,48 46,44 C46,40 44,36 42,36 Z"/>
+    <!-- tail – thick, curving up and over to the right -->
+    <path d="M60,70 C68,64 74,52 70,40 C68,34 65,32 63,36"
+          fill="none" stroke="#191818" stroke-width="4"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--  RABBIT – sitting silhouette, detailed paths   -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <g fill="#191818" transform="translate(122,0)">
+    <!-- left long ear with slight inward curve -->
+    <path d="M12,50 C10,40 8,24 10,12 C11,4 15,2 18,4
+             C21,6 22,14 21,24 C20,34 18,46 18,50 Z"/>
+    <!-- right long ear -->
+    <path d="M22,50 C22,46 20,34 19,24 C18,14 19,6 22,4
+             C25,2 29,4 30,12 C32,24 30,40 28,50 Z"/>
+    <!-- head – rounded, slightly wider at cheeks -->
+    <path d="M8,68 C8,58 10,52 14,50 C14,50 12,48 12,46
+             C12,40 16,36 20,36 C24,36 28,40 28,46
+             C28,48 26,50 26,50 C30,52 32,58 32,68 Z"/>
+    <!-- body – plump rounded haunches -->
+    <path d="M4,86 C4,78 6,70 8,66 C10,62 14,60 20,60
+             C26,60 30,62 32,66 C34,70 36,78 36,86 Z"/>
+    <!-- cheek puff left -->
+    <path d="M8,60 C4,58 2,62 4,66 C6,68 10,66 10,64 Z"/>
+    <!-- cheek puff right -->
+    <path d="M32,60 C36,58 38,62 36,66 C34,68 30,66 30,64 Z"/>
+    <!-- fluffy round tail -->
+    <path d="M34,76 C34,70 38,68 42,70 C46,72 46,80 42,82
+             C38,84 34,82 34,76 Z"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--  BRAND TEXT                                     -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="186" y="42"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="30"
+        font-weight="700"
+        fill="#BF4408"
+        letter-spacing="0.5">Josie's</text>
+
+  <text x="186" y="68"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="21"
+        font-weight="400"
+        fill="#191818"
+        letter-spacing="1.5">Pet Services</text>
+
+</svg>
