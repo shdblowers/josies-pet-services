@@ -1,0 +1,115 @@
+.pricing4-thq-pricing10-elm {
+  width: 100%;
+  background-color: var(--dl-color-theme-secondary2);
+}
+
+.pricing4-thq-max-width-elm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-fourunits);
+}
+
+.pricing4-thq-section-title-elm {
+  width: 100%;
+}
+
+.pricing4-thq-content-elm1 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-oneandhalfunits);
+}
+
+.pricing4-thq-text-elm10 {
+  color: var(--dl-color-theme-primary1);
+}
+
+.pricing4-thq-text-elm11,
+.pricing4-thq-text-elm12 {
+  max-width: 800px;
+}
+
+.pricing4-thq-content-elm2 {
+  display: flex;
+  gap: var(--dl-layout-space-twounits);
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.pricing4-thq-column-elm1,
+.pricing4-thq-column-elm2 {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-unit);
+}
+
+.pricing4-thq-column-elm2 {
+  border: 2px solid var(--dl-color-theme-primary1);
+}
+
+.pricing4-thq-content-elm3 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-unit);
+}
+
+.pricing4-thq-price-elm1,
+.pricing4-thq-price-elm3 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-halfunit);
+}
+
+.pricing4-thq-price-elm2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-unit);
+}
+
+.pricing4-thq-list-elm1,
+.pricing4-thq-list-elm2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-halfunit);
+}
+
+.pricing4-thq-list-item-elm10,
+.pricing4-thq-list-item-elm11,
+.pricing4-thq-list-item-elm12,
+.pricing4-thq-list-item-elm13,
+.pricing4-thq-list-item-elm14,
+.pricing4-thq-list-item-elm15,
+.pricing4-thq-list-item-elm16,
+.pricing4-thq-list-item-elm17,
+.pricing4-thq-list-item-elm18,
+.pricing4-thq-list-item-elm19 {
+  display: flex;
+  align-items: center;
+  gap: var(--dl-layout-space-halfunit);
+  color: var(--dl-color-theme-primary1);
+}
+
+.pricing4-thq-list-item-elm10 span,
+.pricing4-thq-list-item-elm11 span,
+.pricing4-thq-list-item-elm12 span,
+.pricing4-thq-list-item-elm13 span,
+.pricing4-thq-list-item-elm14 span,
+.pricing4-thq-list-item-elm15 span,
+.pricing4-thq-list-item-elm16 span,
+.pricing4-thq-list-item-elm17 span,
+.pricing4-thq-list-item-elm18 span,
+.pricing4-thq-list-item-elm19 span {
+  color: var(--dl-color-theme-neutral-dark);
+}
+
+.pricing4-thq-text-elm13,
+.pricing4-thq-text-elm21 {
+  color: var(--dl-color-theme-primary1);
+}
+
+.pricing4-thq-button-elm1,
+.pricing4-thq-button-elm2 {
+  margin-top: auto;
+  align-self: flex-start;
+}
