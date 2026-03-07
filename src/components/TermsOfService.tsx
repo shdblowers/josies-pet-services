@@ -133,8 +133,7 @@ export default function TermsOfService() {
             </li>
           </ul>
         </div>
-      </div>
-      <p className="content-list22-thq-content7-elm1 thq-body-small">
+        <p className="content-list22-thq-content7-elm1 thq-body-small">
         <span>EMERGENCY</span>
         <br />
         <span>
@@ -169,23 +168,24 @@ export default function TermsOfService() {
           directly caused by gross negligence or willful misconduct by the
           Service Provider.
         </span>
-      </p>
-      <h2 className="content-list22-thq-heading7-elm thq-heading-2">
-        Refund and cancellation policy
-      </h2>
-      <p className="content-list22-thq-content7-elm2 thq-body-small">
+        </p>
+        <h2 className="content-list22-thq-heading7-elm thq-heading-2">
+          Refund and cancellation policy
+        </h2>
+        <p className="content-list22-thq-content7-elm2 thq-body-small">
         Josie's Pet Services offers a full refund if cancelled more than 24
         hours before the booking, 50% afterwards. Josie's Pet Services reserves
         the right to cancel a booking in the very rare occurrence that&nbsp;the
         booking cannot be completed it due to unforeseen circumstances; in this
         case a full refund will be issued and the Owner will be informed as soon
         as possible to allow them to book with an alternative sitter.&nbsp;
-      </p>
-      <img
+        </p>
+        <img
         alt="Petplan Sanctuary Insurance Logo"
         src="/petplansanctuarylogo-white-170x100px-200h.jpg"
         className="home-image2"
-      />
+        />
+      </div>
     </div>
   );
 }

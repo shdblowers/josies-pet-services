@@ -30,19 +30,9 @@
 .content-list22-thq-content7-elm2 {
   max-width: 900px;
   line-height: 1.8;
-  padding: 0 var(--dl-layout-space-fiveunits);
 }
 
 .content-list22-thq-heading7-elm {
   color: var(--dl-color-theme-primary1);
-  padding: 0 var(--dl-layout-space-fiveunits);
   margin-top: var(--dl-layout-space-twounits);
-}
-
-@media (max-width: 767px) {
-  .content-list22-thq-content7-elm1,
-  .content-list22-thq-content7-elm2,
-  .content-list22-thq-heading7-elm {
-    padding: 0 var(--dl-layout-space-twounits);
-  }
 }
