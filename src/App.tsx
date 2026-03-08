@@ -8,23 +8,34 @@ import Testimonials from "./components/Testimonials";
 import ContactForm from "./components/ContactForm";
 import TermsOfService from "./components/TermsOfService";
 import Footer from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <div className="home-container1">
-        <Hero />
-        <About />
-        <Pricing />
-        <HowItWorks />
-        <CTA />
-        <Testimonials />
-        <ContactForm />
-        <TermsOfService />
-        <Footer />
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={
+        <>
+          <Navbar />
+          <div className="home-container1">
+            <Hero />
+            <About />
+            <Pricing />
+            <HowItWorks />
+            <CTA />
+            <Testimonials />
+            <ContactForm />
+            <Footer />
+          </div>
+        </>
+      } />
+      <Route path="/tos" element={
+        <>
+          <Navbar />
+          <TermsOfService />
+          <Footer />
+        </>
+      } />
+    </Routes>
   );
 }
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const LOGO_URL = "/logo.svg";
@@ -9,7 +10,9 @@ export default function Navbar() {
   return (
     <header className="navbar8-container1">
       <header className="navbar8-thq-navbar-interactive-elm">
-        <img alt="Josie's Pet Services logo" src={LOGO_URL} className="navbar8-thq-image1-elm" />
+        <Link to="/">
+          <img alt="Josie's Pet Services logo" src={LOGO_URL} className="navbar8-thq-image1-elm" />
+        </Link>
 
         {/* Desktop menu */}
         <div className="navbar8-thq-desktop-menu-elm">
@@ -18,7 +21,7 @@ export default function Navbar() {
             <a href="#visit-options" className="thq-link thq-body-small">Visit Options</a>
             <a href="#reviews" className="navbar8-thq-link3-elm1 thq-link thq-body-small">Reviews</a>
             <a href="#contact-us" className="thq-link thq-body-small">Contact Us</a>
-            <a href="#terms-of-service" className="thq-link thq-body-small">Terms of Service</a>
+            <Link to="/tos" className="thq-link thq-body-small">Terms of Service</Link>
           </nav>
           <div className="navbar8-thq-buttons-elm1">
             <a href="#about">
@@ -49,7 +52,9 @@ export default function Navbar() {
         <div className={`navbar8-thq-mobile-menu-elm${mobileOpen ? " teleport-show" : ""}`}>
           <div className="navbar8-thq-nav-elm">
             <div className="navbar8-thq-top-elm">
-              <img alt="Josie's Pet Services logo" src={LOGO_URL} className="navbar8-thq-logo-elm" />
+              <Link to="/">
+                <img alt="Josie's Pet Services logo" src={LOGO_URL} className="navbar8-thq-logo-elm" />
+              </Link>
               <div
                 className="navbar8-thq-close-menu-elm"
                 onClick={() => setMobileOpen(false)}
@@ -65,7 +70,7 @@ export default function Navbar() {
               <a href="#visit-options" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Visit Options</a>
               <a href="#reviews" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Reviews</a>
               <a href="#contact-us" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Contact Us</a>
-              <a href="#terms-of-service" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Terms of Service</a>
+              <Link to="/tos" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Terms of Service</Link>
             </nav>
             <div className="navbar8-thq-buttons-elm2">
               <a href="#about" onClick={() => setMobileOpen(false)}>
