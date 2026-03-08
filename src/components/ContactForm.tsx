@@ -1,11 +1,22 @@
-import { useState, FormEvent } from "react";
+import { useState } from "react";
 import "./ContactForm.css";
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    
+    const formData = new FormData(event.target);
+    formData.append("access_key", "45081ef0-df92-4229-a43a-52d4ac213292");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    await response.json();
     setSubmitted(true);
   };
 
@@ -43,57 +54,41 @@ export default function ContactForm() {
           ) : (
             <form onSubmit={handleSubmit} className="thq-card">
               <div className="contact-form3-thq-input-elm1">
-                <label htmlFor="contact-form-3-name" className="thq-body-small">
+                <label htmlFor="name" className="thq-body-small">
                   Name
                 </label>
                 <input
                   type="text"
-                  id="contact-form-3-name"
-                  name="contact-form-3-name"
+                  id="name"
+                  name="name"
                   placeholder="Name"
                   className="thq-input"
                 />
               </div>
               <div className="contact-form3-thq-input-elm2">
-                <label htmlFor="contact-form-3-email" className="thq-body-small">
+                <label htmlFor="email" className="thq-body-small">
                   Email
                 </label>
                 <input
                   type="email"
-                  id="contact-form-3-email"
-                  name="contact-form-3-email"
+                  id="email"
+                  name="email"
                   required
                   placeholder="Email"
                   className="thq-input"
                 />
               </div>
               <div className="contact-form3-container">
-                <label htmlFor="contact-form-3-message" className="thq-body-small">
+                <label htmlFor="message" className="thq-body-small">
                   Message
                 </label>
                 <textarea
-                  id="contact-form-3-message"
-                  name="contact-form-3-message"
+                  id="message"
+                  name="message"
                   rows={3}
                   placeholder="Enter your message"
                   className="contact-form3-textarea thq-input"
                 />
-              </div>
-              <div className="contact-form3-thq-checkbox-elm">
-                <input
-                  type="checkbox"
-                  id="contact-form-3-check"
-                  name="contact-form-3-check"
-                  required
-                  defaultChecked
-                  className="thq-checkbox"
-                />
-                <label
-                  htmlFor="contact-form-3-check"
-                  className="contact-form3-thq-text-elm6 thq-body-small"
-                >
-                  I accept the Terms
-                </label>
               </div>
               <button
                 type="submit"
