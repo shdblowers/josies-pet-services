@@ -4,11 +4,11 @@ import "./ContactForm.css";
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.currentTarget);
     formData.append("access_key", "45081ef0-df92-4229-a43a-52d4ac213292");
 
     const response = await fetch("https://api.web3forms.com/submit", {
