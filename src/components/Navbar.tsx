@@ -17,10 +17,10 @@ export default function Navbar() {
         {/* Desktop menu */}
         <div className="navbar8-thq-desktop-menu-elm">
           <nav className="navbar8-thq-links-elm1">
-            <a href="#about" className="navbar8-thq-link1-elm1 thq-link thq-body-small">About</a>
-            <a href="#visit-options" className="thq-link thq-body-small">Visit Options</a>
-            <a href="#reviews" className="navbar8-thq-link3-elm1 thq-link thq-body-small">Reviews</a>
-            <a href="#contact-us" className="thq-link thq-body-small">Contact Us</a>
+            <Link to="/#about" className="navbar8-thq-link1-elm1 thq-link thq-body-small">About</Link>
+            <Link to="/#visit-options" className="thq-link thq-body-small">Visit Options</Link>
+            <Link to="/#reviews" className="navbar8-thq-link3-elm1 thq-link thq-body-small">Reviews</Link>
+            <Link to="/#contact-us" className="thq-link thq-body-small">Contact Us</Link>
             <Link to="/tos" className="thq-link thq-body-small">Terms of Service</Link>
           </nav>
           <div className="navbar8-thq-buttons-elm1">
@@ -66,10 +66,10 @@ export default function Navbar() {
               </div>
             </div>
             <nav className="navbar8-thq-links-elm2">
-              <a href="#about" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>About</a>
-              <a href="#visit-options" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Visit Options</a>
-              <a href="#reviews" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Reviews</a>
-              <a href="#contact-us" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Contact Us</a>
+              <Link to="/#about" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>About</Link>
+              <Link to="/#visit-options" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Visit Options</Link>
+              <Link to="/#reviews" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Reviews</Link>
+              <Link to="/#contact-us" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Contact Us</Link>
               <Link to="/tos" className="thq-link thq-body-small" onClick={() => setMobileOpen(false)}>Terms of Service</Link>
             </nav>
             <div className="navbar8-thq-buttons-elm2">
