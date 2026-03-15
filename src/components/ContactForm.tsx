@@ -38,7 +38,7 @@ export default function ContactForm() {
               <span className="thq-body-small">
                 Please get in touch by emailing{" "}
                 <a href="mailto:hello@josiespetservices.uk" style={{ color: "var(--dl-color-theme-primary1)" }}>
-                  hello@josiespetservice.co.uk
+                  hello@josiespetservices.uk
                 </a>{" "}
                 or by using the contact form below. Please let me know the
                 details of your booking request, your location and dates.
