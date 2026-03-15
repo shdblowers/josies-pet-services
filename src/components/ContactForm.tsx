@@ -37,7 +37,7 @@ export default function ContactForm() {
               <h2 className="thq-heading-2">Contact us</h2>
               <span className="thq-body-small">
                 Please get in touch by emailing{" "}
-                <a href="mailto:hello@josiespetservice.co.uk" style={{ color: "var(--dl-color-theme-primary1)" }}>
+                <a href="mailto:hello@josiespetservices.uk" style={{ color: "var(--dl-color-theme-primary1)" }}>
                   hello@josiespetservice.co.uk
                 </a>{" "}
                 or by using the contact form below. Please let me know the
